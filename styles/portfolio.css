@@ -2,7 +2,9 @@
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
-
+section{
+    margin-top: 130px;
+}
 .text-primary{
      color: #FD6E0A;   
 }
@@ -71,7 +73,6 @@ main{
 /*about section style*/
 
 .about{
-    margin-top: 130px;
     background: #FFF8F3;
     border-radius: 10px;
     padding: 130px 150px;
@@ -79,9 +80,10 @@ main{
 }
 .section-title{
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     font-weight: 700px;
     font-size: 30px;
+    margin-bottom: 100px;
 }
 .section-description{
     font-size: 18px;
@@ -103,6 +105,30 @@ main{
     font-size: 20px;
     font-weight: 700px;
     color: #474747;
+}
+/*my skill styles*/
+
+.skill-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    background-color: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+.skill-title{
+    font-weight: 700;
+    font-size: 20px;
+    color: #181818;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.skill-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: #757575;
 }
 
 
