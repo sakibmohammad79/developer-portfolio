@@ -19,7 +19,7 @@ section{
     border: 0;
 }
 .header{
-    background-color: FFF8F3;
+    background-color: #FFF8F3;
     background-image: url(../images/header_bg.png), url(../images/developer.png);
     background-repeat: no-repeat;
     background-position: bottom right, left;
@@ -28,7 +28,7 @@ section{
 nav{
     display: flex;
     justify-content: space-between;
-    margin: 50px 200px;
+    padding: 50px 200px;
 }
 
 h2{
@@ -178,7 +178,7 @@ main{
 .contact input[type="text"], input[type="email"], textarea{
     margin-bottom: 24px;
     border: 0;
-    width: 100px;
+    width: 100%;
     padding: 18px 30px;
 }
 .contact a{
